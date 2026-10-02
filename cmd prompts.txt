@@ -1,0 +1,168 @@
+Microsoft Windows [Version 10.0.26200.9457]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\User>dart --version
+Dart SDK version: 3.12.2 (stable) (Tue Jun 9 01:11:39 2026 -0700) on "windows_x64"
+
+C:\Users\User>cd C:\Users\User\cmd-calculator
+
+C:\Users\User\cmd-calculator>del calculator.py
+
+C:\Users\User\cmd-calculator>del "cmd calculator work.txt"
+
+C:\Users\User\cmd-calculator>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 2812-13B0
+
+ Directory of C:\Users\User\cmd-calculator
+
+10/02/2026  07:45 PM    <DIR>          .
+10/02/2026  05:32 PM    <DIR>          ..
+10/02/2026  06:44 PM               523 README.md
+               1 File(s)            523 bytes
+               2 Dir(s)  68,475,666,432 bytes free
+
+C:\Users\User\cmd-calculator>git add -A
+
+C:\Users\User\cmd-calculator>git commit -m "Replace Python calculator with Dart"
+[main d90ced7] Replace Python calculator with Dart
+ 2 files changed, 132 deletions(-)
+ delete mode 100644 calculator.py
+ delete mode 100644 cmd calculator work.txt
+
+C:\Users\User\cmd-calculator>git pull --rebase origin main
+From https://github.com/TanimBD/cmd-calculator
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+
+C:\Users\User\cmd-calculator>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (1/1), done.
+Writing objects: 100% (2/2), 257 bytes | 257.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TanimBD/cmd-calculator.git
+   e0bb8f7..d90ced7  main -> main
+
+C:\Users\User\cmd-calculator>cd C:\Users\User\cmd-calculator
+
+C:\Users\User\cmd-calculator>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 2812-13B0
+
+ Directory of C:\Users\User\cmd-calculator
+
+10/02/2026  07:45 PM    <DIR>          .
+10/02/2026  05:32 PM    <DIR>          ..
+10/02/2026  06:44 PM               523 README.md
+               1 File(s)            523 bytes
+               2 Dir(s)  68,472,442,880 bytes free
+
+C:\Users\User\cmd-calculator>notepad calculator.dart
+
+C:\Users\User\cmd-calculator>dart run calculator.dart
+The Dart CLI developer tool uses Google Analytics to report usage and diagnostic
+data along with package dependencies, and crash reporting to send basic crash
+reports. This data is used to help improve the Dart platform, Flutter framework,
+and related tools.
+
+Telemetry is not sent on the very first run. To disable reporting of telemetry,
+run this terminal command:
+
+    dart --disable-analytics
+
+If you opt out of telemetry, an opt-out event will be sent, and then no further
+information will be sent. This data is collected in accordance with the Google
+Privacy Policy (https://policies.google.com/privacy).
+
+================================
+         CMD CALCULATOR
+================================
+Supported: +  -  *  /
+Type 'exit' to quit.
+
+Enter first number: 10
+Enter operator (+, -, *, /): +
+Enter second number: 20
+Result: 30.0
+
+Enter first number: -10
+Enter operator (+, -, *, /): +
+Enter second number: 20
+Result: 10.0
+
+Enter first number: 1
+Enter operator (+, -, *, /): /
+Enter second number: 0
+Error: Cannot divide by zero!
+
+Enter first number: -1
+Enter operator (+, -, *, /): *
+Enter second number: -5
+Result: 5.0
+
+Enter first number: 12
+Enter operator (+, -, *, /): /
+Enter second number: 5
+Result: 2.4
+
+Enter first number: 10
+Enter operator (+, -, *, /): /
+Enter second number: -2
+Result: -5.0
+
+Enter first number: exit
+Calculator closed.
+
+C:\Users\User\cmd-calculator>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        calculator.dart
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\User\cmd-calculator>git add calculator.dart
+
+C:\Users\User\cmd-calculator>git commit -m "Add Dart CMD calculator"
+[main ea85d7c] Add Dart CMD calculator
+ 1 file changed, 85 insertions(+)
+ create mode 100644 calculator.dart
+
+C:\Users\User\cmd-calculator>git pull --rebase origin main
+From https://github.com/TanimBD/cmd-calculator
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+
+C:\Users\User\cmd-calculator>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 818 bytes | 818.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TanimBD/cmd-calculator.git
+   d90ced7..ea85d7c  main -> main
+
+C:\Users\User\cmd-calculator>cd C:\Users\User\cmd-calculator
+
+C:\Users\User\cmd-calculator>notepad README.md
+
+C:\Users\User\cmd-calculator>git add README.md
+
+C:\Users\User\cmd-calculator>git commit -m "Update README for Dart calculator"
+[main 7625b1e] Update README for Dart calculator
+ 1 file changed, 11 insertions(+), 20 deletions(-)
+
+C:\Users\User\cmd-calculator>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 583 bytes | 583.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TanimBD/cmd-calculator.git
+   ea85d7c..7625b1e  main -> main
