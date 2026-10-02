@@ -1,6 +1,8 @@
+# C223045 Md. Tanim Hossen
+
 # CMD Calculator
 
-A simple command-line calculator built with Python.
+A simple command-line calculator built with Dart.
 
 ## Features
 
@@ -10,30 +12,19 @@ A simple command-line calculator built with Python.
 - Division (/)
 - Negative numbers
 - Decimal numbers
-- Parentheses
-- Modulus (%)
-- Power (**)
+- Input validation
+- Division by zero handling
 - Exit command
 
 ## Technology
- - Python
- - Command Prompt
- - Git & GitHub
 
+- Dart
+- Command Prompt
+- Git & GitHub
 
 ## How to Run
 
+Make sure Dart SDK is installed, then run:
+
 ```bash
-python calculator.py
-
-##Example
-Enter calculation: -10 + 5
-Result: -5
-
-Enter calculation: (-5) * 3
-Result: -15
-
-Enter calculation: 10 / -2
-Result: -5.0
-
-
+dart run calculator.dart
