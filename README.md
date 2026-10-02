@@ -15,10 +15,10 @@ A simple command-line calculator built with Python.
 - Power (**)
 - Exit command
 
-##Technology
-Python
-Command Prompt
-Git & GitHub
+## Technology
+ - Python
+ - Command Prompt
+ - Git & GitHub
 
 
 ## How to Run
