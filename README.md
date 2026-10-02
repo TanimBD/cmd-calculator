@@ -15,6 +15,12 @@ A simple command-line calculator built with Python.
 - Power (**)
 - Exit command
 
+##Technology
+Python
+Command Prompt
+Git & GitHub
+
+
 ## How to Run
 
 ```bash
@@ -30,7 +36,4 @@ Result: -15
 Enter calculation: 10 / -2
 Result: -5.0
 
-##Technology
-Python
-Command Prompt
-Git & GitHub
+
